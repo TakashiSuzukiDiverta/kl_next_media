@@ -86,7 +86,7 @@ const Header = () => {
           <div className='l-header__nav__inner'>
             <ul className='l-header__nav__list' onClick={handleNavClose}>
               <li className='l-header__nav__list__item'>
-                <Link href='/article?topic=food'>FOOD</Link>
+                <Link href='/article?topic=food'>飲めます</Link>
               </li>
               <li className='l-header__nav__list__item'>
                 <Link href='/article?topic=shopping'>SHOPPING</Link>
