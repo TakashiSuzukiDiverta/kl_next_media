@@ -89,17 +89,19 @@ const Header = () => {
                 <Link href='/article?topic=food'>飲めます</Link>
               </li>
               <li className='l-header__nav__list__item'>
-                <Link href='/article?topic=shopping'>SHOPPING</Link>
+                <Link href='/article?topic=shopping'>飲めません</Link>
               </li>
               <li className='l-header__nav__list__item'>
-                <Link href='/article?topic=sightseeing'>SIGHTSEEING</Link>
+                <Link href='/article?topic=sightseeing'>なんともいえません</Link>
               </li>
+              {/*
               <li className='l-header__nav__list__item'>
                 <Link href='/article?topic=event'>EVENT</Link>
               </li>
               <li className='l-header__nav__list__item'>
                 <Link href='/article?topic=culture'>CULTURE</Link>
               </li>
+              */}
             </ul>
             <Search onSubmit={handleNavClose}/>
             {!loading && (
