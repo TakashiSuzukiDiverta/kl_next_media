@@ -103,8 +103,8 @@ const Header = () => {
               </li>
               */}
             </ul>
+            
             <Search onSubmit={handleNavClose}/>
-          {/*
             {!loading && (
               <div onClickCapture={handleNavClose}>
                 {user ? (
@@ -158,7 +158,7 @@ const Header = () => {
                   </div>
                 ) : (
                   <div className='l-header__nav__options'>
-                    {/* 未ログイン */}
+                    {/* 未ログイン 
                     <Link
                       href='/login/'
                       className='l-header__nav__options__button u-display-flex u-display-flex-align-items-center'
@@ -194,6 +194,7 @@ const Header = () => {
                         ></path>
                       </svg>
                     </Link>
+                    */}
                     <Link
                       href='/register/'
                       className='l-header__nav__options__button c-button -regist'
@@ -202,10 +203,8 @@ const Header = () => {
                     </Link>
                   </div>
                 )}
-
               </div>
-            )}
-               */}         
+            )}   
       </div>
         </nav>
       </div>
