@@ -104,6 +104,7 @@ const Header = () => {
               */}
             </ul>
             <Search onSubmit={handleNavClose}/>
+          {/*
             {!loading && (
               <div onClickCapture={handleNavClose}>
                 {user ? (
@@ -201,6 +202,7 @@ const Header = () => {
                     </Link>
                   </div>
                 )}
+               */}         
               </div>
             )}
           </div>
