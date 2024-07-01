@@ -5,8 +5,8 @@ export default function CardList({ data }) {
   if (!data || !Array.isArray(data)) {
     return null;
   }
-  const sqr = {
-    padding-bottom: "100%"
+  const sqrStyle = {
+    paddingBottom: "100%"
   };
 
   return (
@@ -18,7 +18,7 @@ export default function CardList({ data }) {
               <span className='c-card__image__badge'>
                 {card.contents_type_nm}
               </span>
-              <div className='c-card__image' style={sqr}>
+              <div className='c-card__image' style={sqrStyle}>
                 <Image
                   alt={card.image.desc || 'dummy'}
                   src={card.image.url}
