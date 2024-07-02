@@ -16,7 +16,7 @@
     overflow: hidden;
     position: relative;
     img {
-      position: relative !important;
+      position: relative;
       width: 100%;
       transition: var(--transition-seconds) ease-in;
       .c-card:hover & {
