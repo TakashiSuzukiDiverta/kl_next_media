@@ -62,7 +62,7 @@ jobs:
         env:
           webhook_url: "https://kl-good-restaurant.g.kuroco.app/direct/menu/github/"
           webhook_secret: "b0f1cb8d71dc772e437ac6b1e89d370b"
-          data: '{"single_zip":"1","domain":"kl-good-restaurant.g.kuroco-front.app","pr":"${{ github.event.issue.pull_request.url }}",  "repository":"${{ github.repository }}", "run_id":"${{ github.run_id }}", "hash":"${{ steps.get_branch.outputs.sha }}"}'
+          data: '{"single_zip":"1","domain":"www.kl-good.net","pr":"${{ github.event.issue.pull_request.url }}",  "repository":"${{ github.repository }}", "run_id":"${{ github.run_id }}", "hash":"${{ steps.get_branch.outputs.sha }}"}'
           
   #for Push
   pushed_build:
@@ -103,4 +103,4 @@ jobs:
         env:
           webhook_url: "https://kl-good-restaurant.g.kuroco.app/direct/menu/github/"
           webhook_secret: "b0f1cb8d71dc772e437ac6b1e89d370b"
-          data: '{"single_zip":"1","domain":"kl-good-restaurant.g.kuroco-front.app","pr":"${{ github.event.issue.pull_request.url }}",  "repository":"${{ github.repository }}", "run_id":"${{ github.run_id }}", "hash":"${{ github.sha }}"}'
+          data: '{"single_zip":"1","domain":"www.kl-good.net","pr":"${{ github.event.issue.pull_request.url }}",  "repository":"${{ github.repository }}", "run_id":"${{ github.run_id }}", "hash":"${{ github.sha }}"}'
