@@ -14,7 +14,6 @@ export default function Page() {
       <div className='l-container--large l-container--contents'>
         <article className='c-privacy'>
           <h2 className='c-heading--lv2 u-mb-30'>個人情報保護方針</h2>
-          <p>これはダミーのデータです。</p>
           <p>
             当社は、事業活動を実施する上で、お客様の個人情報がプライバシーを構成する重要な情報であることを深く認識し、業務において個人情報を取り扱う場合には、個人情報に関する法令及び個人情報保護のために定めた社内規定を定め、また、組織体制を整備し、個人情報の適切な保護に努めることにより、お客様を尊重し、当社に対する期待と信頼に応えていきます。
           </p>
@@ -43,9 +42,7 @@ export default function Page() {
             当社は、個人情報保護に関する管理規定及び管理体制を整備し、全社員で徹底して運用するとともに定期的な見直しを行い、継続的な改善に努めます。
           </p>
           <p className='u-text-align-right'>
-            制定日：2020年7月1日&nbsp;&nbsp;
-            <br />
-            改定日：2023年7月1日
+            制定日：2024年7月1日&nbsp;&nbsp;
           </p>
         </article>
       </div>
