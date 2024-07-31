@@ -126,7 +126,7 @@ const Footer = () => {
           </ul>
         </nav>
         <p className='l-footer__copyright'>
-          © 2023 CompanyName Inc. All Rights Reserved.
+          © 2024 3Astar services Inc. All Rights Reserved.
         </p>
       </div>
     </footer>
