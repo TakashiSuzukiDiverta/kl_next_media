@@ -59,17 +59,6 @@ const Header = () => {
         isTopPage && scrollY > 100 && '-scrolled',
         isNavToggleActive && 'is-open',
       )}
-
-      {          <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-XSFZBB3D74"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-XSFZBB3D74');
-</script>
-  }
-  
     >
       <div className='l-header__inner'>
         <div className='l-header__logo'>
