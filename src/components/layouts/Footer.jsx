@@ -10,13 +10,7 @@ const Footer = () => {
               <Link href='/privacy/'>プライバシーポリシー</Link>
             </li>
             <li>
-              <Link href='#'>利用規約</Link>
-            </li>
-            <li>
               <Link href='/contact/'>お問い合わせ</Link>
-            </li>
-            <li>
-              <Link href='/sitemap.xml'>サイトマップ</Link>
             </li>
           </ul>
           <ul className='l-footer__nav__list -sns'>
