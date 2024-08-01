@@ -18,8 +18,8 @@ export const contentDirectory = {
 }
 
 export const METADATA = {
-  TITLE: 'Kuroco Trip',
-  DESCRIPTION: 'Let\'s Travel and Enjoy!',
+  TITLE: 'KL 良い店 飲める店',
+  DESCRIPTION: 'マレーシア・クアラルンプール近郊の気になるあのお店。飲めるか飲めないか現地調査レポートします。',
   ARTICLES: 'Articles',
   DETAILS: 'Details',
   CONTACT: 'Contact',
