@@ -14,7 +14,12 @@ const Metadata = ({ title }) => {
     }
   }, [title]);
 
-  return <div></div><GTMInitializer />;
+  return (
+    <div>
+      <div></div>
+      <GTMInitializer />;
+    </div>
+    );
 };
 
 export default Metadata;
