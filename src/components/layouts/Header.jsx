@@ -51,35 +51,6 @@ const Header = () => {
     };
   }, [pathname]);
 
-  const GTMInitializer = () => {
-  useEffect(() => {
-    // Google Tag Managerのスクリプトを追加
-    const script = document.createElement('script');
-    script.innerHTML = `
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-XXXXXXX');
-    `;
-    document.head.appendChild(script);
-
-    // noscriptタグを追加
-    const noscript = document.createElement('noscript');
-    noscript.innerHTML = `
-      <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-XXXXXXX"
-      height="0" width="0" style="display:none;visibility:hidden"></iframe>
-    `;
-    document.body.appendChild(noscript);
-
-    // クリーンアップ
-    return () => {
-      document.head.removeChild(script);
-      document.body.removeChild(noscript);
-    };
-  }, []);
-    
-
   return (
     <header
       className={clsx(
@@ -87,10 +58,8 @@ const Header = () => {
         isTopPage && 'is-top header-scroll',
         isTopPage && scrollY > 100 && '-scrolled',
         isNavToggleActive && 'is-open',
-      <div className="GTMInitializer">
-      <h1>Hello, Google Tag Manager!</h1>
-    </div>
-      )}>
+      )}
+    >
       <div className='l-header__inner'>
         <div className='l-header__logo'>
           <Link href='/'>
@@ -242,5 +211,5 @@ const Header = () => {
     </header>
   );
 };
-export default GTMInitializer;
+
 export default Header;
