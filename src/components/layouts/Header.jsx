@@ -196,13 +196,13 @@ const Header = () => {
                         ></path>
                       </svg>
                     </Link>
-                    */}
                     <Link
                       href='/register/'
                       className='l-header__nav__options__button c-button -regist'
                     >
                       会員登録
                     </Link>
+                    */}
                   </div>
                 )}
               </div>
