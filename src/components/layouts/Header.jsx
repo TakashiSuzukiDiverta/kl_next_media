@@ -9,6 +9,7 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import postLogout from '@/fetch/postLogout';
 import { useRouter } from 'next/navigation';
+import GTMInitializer from '../layouts/GTMInitializer'; // GTMInitializerをインポート
 
 const Header = () => {
   const pathname = usePathname();
@@ -60,6 +61,7 @@ const Header = () => {
         isNavToggleActive && 'is-open',
       )}
     >
+      <GTMInitializer /> {/* GTMInitializerをここに追加 */}
       <div className='l-header__inner'>
         <div className='l-header__logo'>
           <Link href='/'>
