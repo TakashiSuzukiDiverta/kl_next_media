@@ -9,7 +9,6 @@ import { useEffect, useState } from 'react';
 import { usePathname } from 'next/navigation';
 import postLogout from '@/fetch/postLogout';
 import { useRouter } from 'next/navigation';
-import GTMInitializer from './GTMInitializer'; // インポート
 
 const Header = () => {
   const pathname = usePathname();
@@ -59,7 +58,6 @@ const Header = () => {
         isTopPage && 'is-top header-scroll',
         isTopPage && scrollY > 100 && '-scrolled',
         isNavToggleActive && 'is-open',
-              <GTMInitializer />
       )}
     >
       <div className='l-header__inner'>
