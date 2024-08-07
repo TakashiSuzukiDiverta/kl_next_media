@@ -1,5 +1,5 @@
 import { useEffect } from 'react';
-import GTMInitializer from '../lyaouts/GTMInitializer'; // インポート
+import GTMInitializer from '../layouts/GTMInitializer'; // インポート
 
 const Metadata = ({ title }) => {
   useEffect(() => {
