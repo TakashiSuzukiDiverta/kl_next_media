@@ -17,7 +17,7 @@ const Metadata = ({ title }) => {
   return (
     <div>
       <div></div>
-      <GTMInitializer />;
+      <GTMInitializer />
     </div>
     );
 };
