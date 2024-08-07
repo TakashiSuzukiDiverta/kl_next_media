@@ -1,4 +1,5 @@
 import { useEffect } from 'react';
+import GTMInitializer from '../lyaouts/GTMInitializer'; // インポート
 
 const Metadata = ({ title }) => {
   useEffect(() => {
@@ -13,7 +14,7 @@ const Metadata = ({ title }) => {
     }
   }, [title]);
 
-  return <div></div>;
+  return <div></div><GTMInitializer />;
 };
 
 export default Metadata;
