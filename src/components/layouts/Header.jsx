@@ -87,10 +87,10 @@ const Header = () => {
         isTopPage && 'is-top header-scroll',
         isTopPage && scrollY > 100 && '-scrolled',
         isNavToggleActive && 'is-open',
-      )}
       <div className="GTMInitializer">
       <h1>Hello, Google Tag Manager!</h1>
     </div>
+      )}>
       <div className='l-header__inner'>
         <div className='l-header__logo'>
           <Link href='/'>
