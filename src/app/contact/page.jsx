@@ -156,13 +156,6 @@ export default function Page() {
       };
     }
 
-    if (matrixMultiple.current) {
-      formData.current = {
-        ...formData.current,
-        ext_09: matrixMultiple.current,
-      };
-    }
-
     if (!conditionCheck) {
       errors.push({ message: '利用規約に同意してください' });
     }
