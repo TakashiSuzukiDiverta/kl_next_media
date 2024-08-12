@@ -156,13 +156,6 @@ export default function Page() {
       };
     }
 
-    if (matrixSingle.current) {
-      formData.current = {
-        ...formData.current,
-        ext_07: matrixSingle.current,
-      };
-    }
-
     if (matrixMultiple.current) {
       formData.current = {
         ...formData.current,
