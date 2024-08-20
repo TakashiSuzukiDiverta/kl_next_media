@@ -93,10 +93,10 @@ const Header = () => {
               <li className='l-header__nav__list__item'>
                 <Link href='/article?topic=shopping'>飲めません</Link>
               </li>
+              {/*
               <li className='l-header__nav__list__item'>
                 <Link href='/article?topic=sightseeing'>なんともいえません</Link>
               </li>
-              {/*
               <li className='l-header__nav__list__item'>
                 <Link href='/article?topic=event'>EVENT</Link>
               </li>
