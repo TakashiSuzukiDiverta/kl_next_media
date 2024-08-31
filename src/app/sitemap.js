@@ -6,13 +6,11 @@ export default async function sitemap() {
     url: `https://www.kl-good.net/article/${item.topics_id}/`,
     lastModified: new Date(item.update_ymdhi),
   }));
-  {/* 
   const features = await getAllContentList();
   const featureDetails = features.map((item) => ({
     url: `https://www.kl-good.net/feature/${item.topics_id}/`,
     lastModified: new Date(item.update_ymdhi),
   }));
-  */}
   return [
     {
       url: `https://www.kl-good.net/privacy/`,
