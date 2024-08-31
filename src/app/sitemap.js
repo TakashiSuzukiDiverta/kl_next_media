@@ -22,6 +22,6 @@ export default async function sitemap() {
       url: `https://www.kl-good.net/article/`,
     },
     ...articleDetails,
-{/*    ...featureDetails,*/}
+    ...featureDetails,
   ];
 }
