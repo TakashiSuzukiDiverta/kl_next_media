@@ -19,7 +19,7 @@ export const contentDirectory = {
 
 export const METADATA = {
   TITLE: 'KL 良い店 飲める店',
-  DESCRIPTION: 'マレーシア・クアラルンプール近郊の気になるあのお店。飲めるか飲めないか現地調査レポートします。',
+  DESCRIPTION: 'マレーシア・クアラルンプール近郊の気になるあのお店。飲めるか飲めないかワタクシが実際にお店に足を運んで現地調査レポートいたします。飲めないお店はぜひテイクアウェイしてご自宅でお好みのアルコールとあわせてお楽しみください。',
   ARTICLES: 'Articles',
   DETAILS: 'Details',
   CONTACT: 'Contact',
