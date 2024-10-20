@@ -66,8 +66,8 @@ const Header = () => {
         <div className='l-header__logo'>
           <Link href='/'>
             <Image
-              src='/images/logo.png'
-              alt='Company Name'
+              src='/images/klgood.svg'
+              alt='klgood logo'
               width={200}
               height={60}
             />
