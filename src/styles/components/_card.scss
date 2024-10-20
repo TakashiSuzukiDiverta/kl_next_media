@@ -166,6 +166,9 @@
         flex: 0 0 30%;
         @include pc {
           margin-right: var(--spacing);
+         img {
+          object-fit: cover;
+        }
         }
         @include sp {
           margin-right: var(--spacing-small);
