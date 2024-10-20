@@ -7,7 +7,7 @@ export default function CardList({ data }) {
   }
   const sqrStyle = {
     paddingBottom: "100%",
-    objectfit: cover;
+    objectfit: "cover";
   };
 
   return (
