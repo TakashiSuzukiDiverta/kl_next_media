@@ -36,6 +36,7 @@
       padding: 0 var(--spacing);
       font-weight: bold;
       letter-spacing: 0.05em;
+      color: white;
       @include pc() {
         font-size: var(--font-size-h4);
       }
